@@ -368,3 +368,33 @@ nav ul li a:hover{
     font-weight: 400;
     font-size: .9rem;
    }
+
+
+   /* ************** media query ********** */
+
+   @media (min-width: 1200px) {
+     
+   }
+
+
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575px) {
+  /* Styles for extra small screens */
+}
+
+/* Small devices (phones, ≥576px) */
+@media (min-width: 576px) {
+  /* Styles for small screens */
+}
+
+/* Medium devices (tablets, ≥768px) */
+@media (min-width: 768px) {
+  /* Styles for tablets */
+}
+
+/* Large devices (desktops, ≥992px) */
+@media (min-width: 992px) {
+  /* Styles for laptops/desktops */
+}
+
+/* Extra large devices (large desktops, ≥1200px) */
