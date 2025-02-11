@@ -99,3 +99,16 @@
         grid-template-columns: repeat(5, 1fr);
        ;
     }}
+
+
+
+
+
+
+
+    /* ------------ View Contestents html css------------ */
+
+
+    #view-cont-main{
+        padding: 2rem;
+    }
