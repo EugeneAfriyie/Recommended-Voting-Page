@@ -31,7 +31,7 @@
 }
 
 body {
-  max-width: 1500px;
+
   min-width: 320px;
 }
  
@@ -236,6 +236,7 @@ nav ul li a:hover{
     font-size: 1rem;
     font-weight: 700;
     margin-top: 0.5rem;
+    word-break: keep-all;
    }
 
    .event-img{
@@ -307,7 +308,6 @@ nav ul li a:hover{
    }
 
    .intru-card li{
-    /* border: 1px solid gray; */
     padding: 0.5rem;
     display: flex;
     align-items: center;

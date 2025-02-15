@@ -4,7 +4,6 @@
 
 
 
-/* Small devices (phones, ≥576px) */
 @media (max-width: 575px) {
     .events-card-div,.categories-card{
         grid-template-columns: repeat(2, 1fr);
@@ -127,7 +126,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1rem;
-        /* background-color: #000; */
         color: #fff;
     }
     
@@ -207,7 +205,6 @@
       }
 }
 
-/* Medium devices (tablets, ≥768px) */
 @media (min-width: 768px) {
     footer .top{
         display: flex;
@@ -263,7 +260,6 @@
 }
 
 
-/* Extra large devices (large desktops, ≥1200px) */
 @media (min-width: 1024px) {
 
     .a-header{
@@ -301,7 +297,7 @@
 
 @media (min-width: 1200px) {
     .events-card-div,.categories-card{
-        grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
        ;
     }
 
@@ -326,4 +322,3 @@
 }
 }
     
-}
