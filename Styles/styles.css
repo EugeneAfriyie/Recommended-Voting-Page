@@ -188,6 +188,7 @@ nav ul li a:hover{
     /* display: grid; */
     /* align-items: center; */
     margin-bottom: 3rem;
+    max-width: 990px;
   }
 
   .a-header{
