@@ -1,0 +1,99 @@
+
+
+
+
+
+.main-top-section{
+    /* height: 90vh; */
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.cover-div{
+    margin: 0 8rem;
+}
+
+.main-top-section,.main-content-div div,h2,p{
+}
+
+.main-top-section h2{
+    font-size: 2.2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-content-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.event-bg{
+    background: rgb(2,0,36);
+background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(67,244,1,1) 0%, rgba(9,9,121,1) 63%);
+    text-align: center;
+    font-size: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+  .event-details p{
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+    padding: .5rem;
+  }
+
+  .event-details{
+    padding: .5rem;
+    /* border: 1px solid gray; */
+   box-shadow: rgba(158, 158, 182, 0.2) 0px 7px 29px 0px;
+
+  }
+
+  .vote-btn{
+    width: 100%;
+    padding: .9rem;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+  }
+
+  #share-btn {
+    background-color: blue;
+    color: white;
+    margin-top: 1rem;
+ }
+
+ .i-div{
+    display: flex;
+    gap: 1rem;
+    padding: .5rem;
+ }
+
+ .i-con{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: #ecedee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .i-con i{
+    font-size: 1.4rem;
+ }
+
+ .content-info{
+    font-size: 1.15rem;
+    margin: 2.5rem 0;
+ }
+
+
+
+
+  
