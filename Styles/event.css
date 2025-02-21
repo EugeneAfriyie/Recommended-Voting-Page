@@ -96,4 +96,59 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
 
 
 
-  
+ @media (max-width: 1020px){
+
+    .cover-div{
+        margin: 0 2rem;
+    }
+
+
+ }
+ @media (max-width: 768px){
+
+    .main-content-div{
+        grid-template-columns:  1fr;
+       
+    }
+
+    .event-bg{
+        height: 100vh;
+    }
+
+    .content-info{
+        font-size: 1rem;
+        margin: 2rem 0;
+     }
+    
+    
+
+ }
+
+
+  @media (max-width: 768px){
+
+    .main-top-section h2{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .i-con{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .vote-btn{
+        padding: .9rem;
+        font-size: 1rem;
+    }
+
+    .cover-div{
+        margin: 0 .6rem;
+    }
+
+    .event-bg{
+        font-size: 12rem;
+        height: 80vh;
+    }
+    }
+    
