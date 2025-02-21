@@ -93,6 +93,62 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
     margin: 2.5rem 0;
  }
 
+ .header-item-div .item-1,.item-2{
+    display: flex;
+    padding: .2rem;
+    font-size: 1.1rem;
+ }
+
+
+ .item-1{
+    border: 1px solid gray;
+    
+ }
+ .item-1 p{
+    padding: .8rem .7rem;
+    border-radius: .5rem;
+ }
+
+ .item-2 select ,button{
+    font-size: 1.1rem;
+    border-radius: .5rem;
+ }
+ 
+ .item-2 button{
+    padding: .7rem .9rem;
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: 600;
+ }
+
+ .input-event{
+    border: 1px solid gray;
+    padding: .5rem;
+ }
+
+ .input-event select{
+    border: none;
+ }
+
+ .main-event h2{
+    text-align: center;
+    font-size: 1.5rem;
+ }
+
+ .header-item-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .item-1-voting{
+    background-color: rgba(29, 131, 226, 0.719);
+ }
+
+ .item-2{
+    gap: .5rem;
+ }
+
 
 
 

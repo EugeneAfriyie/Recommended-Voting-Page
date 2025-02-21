@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Page Layout</title>
+    <title>Events Page</title>
     <link rel="stylesheet" href="../Styles/styles.css">
     <link rel="stylesheet" href="../Styles/voting-events.css">
+    <link rel="stylesheet" href="../Styles/event.css">
     <link rel="stylesheet" href="../Styles/media-query.css">
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
 
 
@@ -45,57 +46,106 @@
                 <li><a class="" href="../index.html">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="./event.html">Events</a></li>
-                <li><a class="nav-selected" href="./voting-events.html">Voting Events</a></li>
+                <li><a class="nav-selected" href="./event.html">Events</a></li>
+                <li><a  href="./voting-events.html">Voting Events</a></li>
                 <li><a href="#">Ticketing Events</a></li>
             </ul>
         </nav>
     </header>
     
-    <main id="view-cont-main">
-        <section class="main-top">
-            <h2>Music Awards Night 2024</h2>
-            <p style="text-align: center;">Male Vocalist of the Year</p>
-            <div class="top-info">
-                <p>6 categories</p>
-                <p>Available on : *234*879#</p>
+    <main>
+        <section class="main-event">
+            <h2>Discover events near you</h2>
+           
+            <div class="header-item-div">
+                <div class="item-1">
+                    <p class="item-1-voting">Voting</p>
+                    <p class="">Ticketing</p>
+                </div>
+                <div class="item-2">
+                    <div class="input-event">
+                            <select name="event-select" id="event-select">
+                                <option value="volvo">Current Event</option>
+                                <option value="saab">Past Event</option>
+                            </select>
+                    </div>
+                    <a href="">
+                        <button>View All</button>
+                    </a>
+                </div>
             </div>
         </section>
 
-        <div class="events-card-div">
-            <div class="events-card">
-                <div class="event-img-div">
-                <img class="event-img" src="https://votepaddy.pythonanywhere.com/media/download_1.jpeg" alt="">
+        <section class="categories-card events-card-div">
 
-                </div>
-                <div class="card-details">
-                    <h3>Doris Frimpong</h3>
-                    <div class="">
-                        <p>*234*879#</p>
-                        <p>1st January 1970</p>
+
+            <div class="card">
+                    <div class="card-img">
+                        <img src="https://votepaddy.pythonanywhere.com/media/TGMA.jpeg" alt="">
                     </div>
-                    <button>View Contestants</button>
-                </div>
-            </div>
-            <div class="events-card">
-                <div class="event-img-div">
-                <img class="event-img" src="https://votepaddy.pythonanywhere.com/media/download_7.jpeg" alt="">
-
-                </div>
-                <div class="card-details">
-                    <h3>Ernestina Asare</h3>
-                    <div class="">
-                        <p>*234*879#</p>
-                        <p>1st January 1970</p>
+                    <div class="card-info">
+                        <h4>Best Student Personality</h4>
+                        <p>Contestants: <span>5</span></p>
+                        <a href="./view-contestent.html">
+                            <button>View Contestents</button>
+                        </a>
                     </div>
-                    <button>View Contestants</button>
-                </div>
             </div>
-           
+            <div class="card">
+                    <div class="card-img">
+                        <img src="https://votepaddy.pythonanywhere.com/media/TGMA.jpeg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h4>Best Student Personality</h4>
+                        <p>Contestants: <span>5</span></p>
+                        <a href="./view-contestent.html">
+                            <button>View Contestents</button>
+                        </a>
+                    </div>
+            </div>
+            <div class="card">
+                    <div class="card-img">
+                        <img src="https://votepaddy.pythonanywhere.com/media/TGMA.jpeg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h4>Best Student Personality</h4>
+                        <p>Contestants: <span>5</span></p>
+                        <a href="./view-contestent.html">
+                            <button>View Contestents</button>
+                        </a>
+                    </div>
+            </div>
+            <div class="card">
+                    <div class="card-img">
+                        <img src="https://votepaddy.pythonanywhere.com/media/TGMA.jpeg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h4>Best Student Personality</h4>
+                        <p>Contestants: <span>5</span></p>
+                        <a href="./view-contestent.html">
+                            <button>View Contestents</button>
+                        </a>
+                    </div>
+            </div>
+            <div class="card">
+                    <div class="card-img">
+                        <img src="https://votepaddy.pythonanywhere.com/media/TGMA.jpeg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h4>Best Student Personality</h4>
+                        <p>Contestants: <span>5</span></p>
+                        <a href="./view-contestent.html">
+                            <button>View Contestents</button>
+                        </a>
+                    </div>
+            </div>
 
            
+         
 
-        </div>
+          
+          
+        </section>
 
         
 
