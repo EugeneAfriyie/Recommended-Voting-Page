@@ -4,23 +4,33 @@
     box-sizing: border-box;
 }
 
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
 body{
     display: grid;
-    grid-template-columns: 25% 1fr;
+    grid-template-columns: 20% 1fr;
 }
 
 .sidebar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
-    background: rgb(2,0,36);
+    background: rgb(19, 9, 212);
 background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgba(63,80,56,1) 0%, rgba(25,111,128,1) 36%);
-padding: 1rem;
+padding: .2rem;
+}
+
+.profile-div{
+    padding: 1rem;
+
 }
 
 .profile{
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 1rem;
+    grid-template-columns:auto 9rem auto;
+    gap: .5rem;
     border: 1px solid red;
 }
 
@@ -50,8 +60,11 @@ padding: 1rem;
 }
 
 .admin-details p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: white;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 
@@ -106,7 +119,73 @@ padding: 1rem;
     font-size: 1rem;
 }
 
-.main-body{
-    border: 1px solid red;
-    width: 100%;
+.sidebar-body{
+    /* border: 1px solid red; */
 }
+
+.body-item{
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    gap: 1rem;
+}
+
+
+.body-item-main{
+    color: rgba(255, 255, 255, 0.719);
+    
+}
+
+
+
+.active-color-div{
+    width: .3rem;
+    height: 100%;
+}
+
+.item-info{
+    font-size: 1.3rem;
+    vertical-align: middle;
+    display: flex;
+    align-self: center;
+    gap: 1.5rem;
+}
+
+.sub-item{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-left: 5rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.top-item:hover{
+    background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgba(63,80,56,1) 0%, rgba(36, 143, 165, 0.664) 36%);
+    color: white;
+}
+.top-item:active{
+    background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgba(63,80,56,1) 0%, rgba(10, 57, 66, 0.664) 36%);
+}
+
+.sub-item:hover{
+    background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgba(63,80,56,1) 0%, rgba(36, 143, 165, 0.664) );
+    color: rgba(255, 255, 255, 0.819);
+
+}
+
+.active-color{
+    background-color: white;
+}
+.active-item{
+   color: white;
+}
+
+
+
+
+
+
+
+
