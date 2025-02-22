@@ -12,6 +12,7 @@ a{
 body{
     display: grid;
     grid-template-columns: 20% 1fr;
+    padding-top: 4rem;
 }
 
 .sidebar{
@@ -182,7 +183,38 @@ padding: .2rem;
    color: white;
 }
 
+.create-event{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgba(69,237,6,1) 0%, rgba(34,175,171,1) 52%);
+    color: white;
+    border: none;
+    
+}
 
+
+
+header{
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+    align-items: center;
+}
+
+header div{
+    border: 1px solid red;
+}
+
+.header-name{
+    font-size: 2rem;
+
+}
 
 
 
