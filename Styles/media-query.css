@@ -416,7 +416,7 @@ nav ul li a{
 
   .events-card-div{
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem ;
     margin: 0rem ;
 
   }
@@ -424,7 +424,7 @@ nav ul li a{
 
   
   #events{
-    padding: 0;
+    padding: 0rem;
   }
 
   .intru-card{
