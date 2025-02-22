@@ -201,11 +201,12 @@ header{
     top: 0;
     height: 4rem;
     width: 100%;
-    border: 1px solid rebeccapurple;
     display: grid;
     grid-template-columns: 20% 30% 20% 30%;
     align-items: center;
     background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 /* header div{
@@ -229,7 +230,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(248, 248, 248);
 }
 
 .header-search input{
@@ -238,7 +239,7 @@ header{
     padding: 1rem;
     font-size: 1.1rem;
     outline: none;
-    border: 1px solid rgb(221, 217, 217);
+    border: none;
 }
 
 input::placeholder{
@@ -258,11 +259,17 @@ input::placeholder{
     font-size: 1.2rem;
     justify-content: center;
     gap: 1rem;
+
 }
 
 .header-info P{
     display: flex;
     gap: .5rem;
+    cursor: pointer;
+}
+
+.header-info p:hover{
+    opacity: .7;
 }
 
 .header-profile{
@@ -294,6 +301,40 @@ header .image img{
     object-fit: cover;
     border-radius: 50%;
 }
+
+
+.main-body{
+    padding: 2rem;
+}
+.body-header{
+    font-size: 3rem;
+}
+
+.header-p{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-loc{
+    color: rgba(25,111,128,1) ;
+}
+
+.dash-card-div{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    margin-top: 2rem;
+}
+
+.dash-card{
+    background-color: red;
+    height: 10rem;
+    display: flex;
+
+}
+
+
 
 /* .header-info i{
     background-color: #fff;
