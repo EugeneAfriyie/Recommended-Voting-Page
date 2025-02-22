@@ -417,14 +417,14 @@ nav ul li a{
   .events-card-div{
     font-size: 1rem;
     padding: 1rem;
-    margin: 1rem ;
+    margin: 0rem ;
 
   }
 
 
   
   #events{
-    padding: 1.5rem;
+    padding: 0;
   }
 
   .intru-card{

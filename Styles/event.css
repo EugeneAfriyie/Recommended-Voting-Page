@@ -60,6 +60,8 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
     padding: .9rem;
     font-size: 1.1rem;
     border-radius: .5rem;
+    background: transparent;
+    border: 1px solid blue;
   }
 
   #share-btn {
@@ -156,6 +158,22 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
     gap: .5rem;
  }
 
+ .range-div{
+    width: 100%;
+    height: .8rem;
+    background-color: gray;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+ }
+
+ .range{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+
+ }
+
 
 
 
@@ -249,3 +267,10 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
     }
     }
     
+
+    @media (max-width: 490px){
+            
+    .header-item-div{
+        margin: 2rem 1rem;
+    }
+        }
