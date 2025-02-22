@@ -1,0 +1,25 @@
+@media (max-width: 1028px){
+    
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 490px){
+    .main-body{
+        padding: .5rem;
+    }
+}
+@media (max-width: 1000px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    .sidebar{
+        display: none;
+    }
+}
+@media (min-width: 1600px){
+    
+.dash-card-div{
+    grid-template-columns: repeat(4,1fr);
+}
+}
