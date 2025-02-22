@@ -22,11 +22,11 @@
         </div>
         <div class="header-info">
             <p>
-                <i class="fa-solid fa-user-plus"></i>
+                <i class="fa-regular fa-square-plus"></i>
                 Create Event
             </p>
             <p>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-heart"></i>
                 Favorite
             </p>
         </div>
@@ -176,17 +176,176 @@
       </div>
 
       <section class="dash-card-div">
-        <div class="dash-card">
+        <div class="dash-card first">
             <div class="card-detail">
-                <h2>99%</h2>
-                <p>Total Votals</p>
+                <h2>99.9%</h2>
+                <p>Server Uptime</p>
             </div>
-            <div class="card-img"></div>
+            <div class="card-img">
+                <i class="fa-regular fa-chart-bar"></i>
+            </div>
         </div>
-        <div class="dash-card"></div>
-        <div class="dash-card"></div>
-        <div class="dash-card"></div>
+        <div class="dash-card second">
+            <div class="card-detail">
+                <h2>995</h2>
+                <p>No. Of Nominees</p>
+            </div>
+            <div class="card-img">
+                <i class="fa-regular fa-address-card"></i>
+
+            </div>
+        </div>
+        <div class="dash-card third">
+            <div class="card-detail">
+                <h2>995</h2>
+                <p>No. of Voters</p>
+            </div>
+            <div class="card-img">
+                
+                <i class="fa-regular fa-id-badge"></i>
+            </div>
+        </div>
+        <div class="dash-card four">
+            <div class="card-detail">
+                <h2>995</h2>
+                <p>Revenue</p>
+            </div>
+            <div class="card-img">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+        </div>
+        
       </section>
+
+      <table cellspacing="0">
+        <thead>
+            <tr class="">
+                <th class="cat-name">Category Name</th>
+                <th class="num-nom">No. Of Nominees</th>
+                <th class="num-votes">No. Of votes</th>
+                <th class="cash-amount">Amount (GH₵)</th>
+                <th class="action">Action</th>
+            </tr>
+        </thead>
+
+        
+            <tbody class="categories-body">
+                <tr class="category-type category-type-${category.id} nominee" data-id="${category.id}">
+                    <td class="nominee">
+                    
+                        <a href="./nominee.html"  >
+                            Best Student Personality
+                        </a>
+                    
+                    </td>
+                    <td >
+                        <a href="./nominee.html"   >
+                            55
+                        </a>
+                    </td>
+        
+                    <td class="nominee"  data-id="${category.id}">
+                        <a  >
+                            457
+                        </a>
+                    </td>
+                    <td >
+                        <a href="./nominee.html " class="nominee"  >
+                           34
+                        </a>
+                    </td>
+                    <td class='delete delete-${category.id}' data-id="${category.id}">
+                        Delete
+                    </td>
+                </tr>
+                <tr class="category-type category-type-${category.id} nominee" data-id="${category.id}">
+                    <td class="nominee">
+                    
+                        <a href="./nominee.html"  >
+                            Best Student Personality
+                        </a>
+                    
+                    </td>
+                    <td >
+                        <a href="./nominee.html"   >
+                            55
+                        </a>
+                    </td>
+        
+                    <td class="nominee"  data-id="${category.id}">
+                        <a  >
+                            457
+                        </a>
+                    </td>
+                    <td >
+                        <a href="./nominee.html " class="nominee"  >
+                           34
+                        </a>
+                    </td>
+                    <td class='delete delete-${category.id}' data-id="${category.id}">
+                        Delete
+                    </td>
+                </tr>
+                <tr class="category-type category-type-${category.id} nominee" data-id="${category.id}">
+                    <td class="nominee">
+                    
+                        <a href="./nominee.html"  >
+                            Best Student Personality
+                        </a>
+                    
+                    </td>
+                    <td >
+                        <a href="./nominee.html"   >
+                            55
+                        </a>
+                    </td>
+        
+                    <td class="nominee"  data-id="${category.id}">
+                        <a  >
+                            457
+                        </a>
+                    </td>
+                    <td >
+                        <a href="./nominee.html " class="nominee"  >
+                           34
+                        </a>
+                    </td>
+                    <td class='delete delete-${category.id}' data-id="${category.id}">
+                        Delete
+                    </td>
+                </tr>
+                <tr class="category-type category-type-${category.id} nominee" data-id="${category.id}">
+                    <td class="nominee">
+                    
+                        <a href="./nominee.html"  >
+                            Best Student Personality
+                        </a>
+                    
+                    </td>
+                    <td >
+                        <a href="./nominee.html"   >
+                            55
+                        </a>
+                    </td>
+        
+                    <td class="nominee"  data-id="${category.id}">
+                        <a  >
+                            457
+                        </a>
+                    </td>
+                    <td >
+                        <a href="./nominee.html " class="nominee"  >
+                           34
+                        </a>
+                    </td>
+                    <td class='delete delete-${category.id}' data-id="${category.id}">
+                        Delete
+                    </td>
+                </tr>
+            </tbody>
+        
+     </table>
+
   
       </section>
  
