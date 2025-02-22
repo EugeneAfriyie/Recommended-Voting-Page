@@ -61,11 +61,11 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
     font-size: 1.1rem;
     border-radius: .5rem;
     background: transparent;
-    border: 1px solid blue;
+    border: 1px solid rgb(75, 75, 228);
   }
 
   #share-btn {
-    background-color: blue;
+    background-color: rgb(75, 75, 228);
     color: white;
     margin-top: 1rem;
  }
@@ -123,7 +123,7 @@ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb
  
  .item-2 button{
     padding: .7rem .9rem;
-    background-color: blue;
+    background-color: rgb(75, 75, 228);
     color: white;
     font-weight: 600;
  }

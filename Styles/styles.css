@@ -106,7 +106,7 @@ header{
   justify-content: center;
   border-radius: 7px;
   font-weight: bold;
-  border: 1px solid blue;
+  border: 1px solid rgb(75, 75, 228);
   font-size: 1.1rem;
   padding: 0 1.1rem;
 }
@@ -117,7 +117,7 @@ header{
 }
 
 .sign-in{
-    background-color: blue;
+    background-color: rgb(75, 75, 228);
     color: #fff;
     border-radius: 5px;
 
@@ -142,12 +142,12 @@ nav ul li a{
     font-size: 1.1rem;
 }
 nav ul li a:hover{
-    color: blue;
+    color: rgb(75, 75, 228);
     
 }
 
 .nav-selected{
-    background-color: blue;
+    background-color: rgb(75, 75, 228);
     color: white;
 }
 
@@ -222,8 +222,8 @@ nav ul li a:hover{
     border: 1px solid white;
   }
 
-  .blue{
-    color: blue;
+  .rgb(75, 75, 228){
+    color: rgb(75, 75, 228);
   }
 
 
@@ -256,7 +256,7 @@ nav ul li a:hover{
     font-size: .9rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    background-color: blue;
+    background-color: rgb(75, 75, 228);
     color: white;
     border: none;
    }
@@ -303,7 +303,7 @@ nav ul li a:hover{
     width: 100%;
     padding: 0.5rem;
     background: transparent;
-    border:1px solid blue;
+    border:1px solid rgb(75, 75, 228);
     font-size: 1.1rem;
     border-radius: .4rem;
 
@@ -425,7 +425,7 @@ nav ul li a:hover{
 
 
    footer .socials i{
-    color: blue;
+    color: rgb(75, 75, 228);
     font-size: 1.5rem;
    }
 
