@@ -205,11 +205,12 @@ header{
     display: grid;
     grid-template-columns: 20% 30% 20% 30%;
     align-items: center;
+    background-color: #fff;
 }
 
-header div{
+/* header div{
     border: 1px solid red;
-}
+} */
 
 .header-name{
     font-size: 2rem;
@@ -222,6 +223,83 @@ header div{
 .header-name i{
     font-size: 1.5rem;
 }
+
+.header-search{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.header-search input{
+    width: 90%;
+    height: 80%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid rgb(221, 217, 217);
+}
+
+input::placeholder{
+    font-size: 1rem;
+}
+
+.search-btn{
+    width: 10%;
+    height: 80%;
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header-info{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header-info P{
+    display: flex;
+    gap: .5rem;
+}
+
+.header-profile{
+    display: flex;
+    height: 90%;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: end;
+    gap: 1rem;
+    padding-right: 1rem;
+
+}
+
+.header-profile i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header .image{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+
+header .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* .header-info i{
+    background-color: #fff;
+    color: red;
+    border: 1px solid black;
+} */
 
 
 
