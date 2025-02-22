@@ -213,7 +213,14 @@ header div{
 
 .header-name{
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
 
+.header-name i{
+    font-size: 1.5rem;
 }
 
 
