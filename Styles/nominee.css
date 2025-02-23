@@ -1,0 +1,21 @@
+
+
+.mana-nom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mana-nom-btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.add-nom{
+    font-size: 1.2rem;
+    background-color: rgb(5, 97, 235);
+    padding: .5rem;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: .5rem;
+}
