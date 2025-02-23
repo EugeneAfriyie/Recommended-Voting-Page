@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+    /* border: 1px solid red; */
+    overflow: auto;
+}
+
+.table-container {
+    margin-top: 1rem;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    /* white-space: nowrap; Prevents text wrapping */
+    border: 1px solid red;
+
+
+}
+
+table th{
+    /* display: f;  */
+    grid-template-columns: 25% auto auto auto auto auto 1fr;
+}
+
+th {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Remove column borders but keep row separators */
+tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Status indicator */
+.status {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+/* Buttons */
+tr button {
+    border: none;
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.edit {
+    background-color: blue;
+}
+
+.delete {
+    background-color: red;
+}
+
+.edit:hover {
+    background-color: darkblue;
+}
+
+.delete:hover {
+    background-color: darkred;
+}
+
+.edit,.delete{
+    flex :1;
+    min-width: 3rem;
+}
+
+.action-btns{
+    border: 1px solid red;
+    /* width: 200px; */
+
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr)); */
+    grid-template-columns: repeat(2,1fr);
+    gap: .5rem;
+
+}
+
+
+/* 📱 Mobile responsiveness */
+@media screen and (max-width: 770px) {
+    .table-container {
+        /* width: 700px; */
+        overflow: auto;
+    }
+    table {
+        /* width: 450px; */
+        overflow: auto;
+    }
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    button {
+        /* padding: 4px 8px; */
+        font-size: 12px;
+    }
+    #events {
+        padding: 0;
+    }
+
+    .action-btns{
+        border: 1px solid red;
+      
+        grid-template-columns: repeat(1,1fr);
+        gap: .5rem;
+    
+    }
+}
+
+
+@media (max-width: 490px){
+    .table-container {
+        overflow: auto;
+    }
+    table {
+        /* width: 450px; */
+        overflow: auto;
+    }
+}
+
+
+
+@media (min-width: 490px) and (max-width: 765px) {
+    #events {
+        padding: 0rem;
+    }
+}
