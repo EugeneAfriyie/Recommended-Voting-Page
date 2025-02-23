@@ -15,7 +15,7 @@
     margin-left: auto;
     margin-right: 1rem;
     background-color: #1158dd;
-    color: whitesmoke;
+    color: white;
     border: none;
     border-radius: 5px;
     padding: .8rem 1rem;
@@ -60,11 +60,11 @@ aside{
     padding: .5rem;
 }
 
-.aside-div .overlay-items:hover{
-    background-color: #1158dd;
-    color: whitesmoke;
-}
+
 .overlay-item:hover svg{
+    fill: #1158dd;
+}
+.overlay-item:hover {
     fill: white;
 }
 
@@ -73,7 +73,7 @@ aside{
   }
 
 
-.aside-div .overlay-items
+
 
 .bottom-aside{
     
@@ -95,6 +95,17 @@ aside{
     color: white;
     border: none;
     font-weight: 500;
+}
+
+.selected{
+    background-color: #1158dd !important;
+    color: white;
+}
+
+
+
+.selected svg{
+    fill: white;
 }
 
 @media (min-width: 768px){
