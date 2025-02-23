@@ -13,11 +13,11 @@ function menuFunc() {
 
     });
 
-    closeBtn.addEventListener('click', () => {
-       onOff();
+    // closeBtn.addEventListener('click', () => {
+    //    onOff();
 
 
-    });
+    // });
 
     overlay.addEventListener('click',()=>{
       onOff();
