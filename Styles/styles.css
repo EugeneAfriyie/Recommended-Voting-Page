@@ -457,8 +457,15 @@ nav ul li a:hover{
     background-color: #fff;
     padding-top: 1rem;
     padding: 1rem 1rem 1rem 2rem;
+
+    transition: all 1.5s ease-in-out;
+    transform: translateX(100%) ;
    }
 
+
+.overlay.active{
+    transform: translateX(0);
+}      
    .overlay .close{
     text-align: right;
     font-size: 2rem;
