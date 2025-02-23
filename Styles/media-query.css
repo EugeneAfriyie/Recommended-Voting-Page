@@ -336,9 +336,7 @@
     height: 100%;
 }
 
-.menu-icon{
-  display: block;
-}
+
 
 header{
   padding: .8rem;
@@ -463,11 +461,20 @@ nav ul li a{
    .categorie-card{
     padding: 1rem;
    }
+   .menu-icon{
+    display: block;
+  }
+  .overlay{
+    width: 50%;
+  }
 
 }
     
 @media (min-width: 490px) and (max-width: 765px) { 
 
+  .menu-icon{
+    display: block;
+  }
 
     .how-it-works{
       padding:3rem 2rem  ;}
