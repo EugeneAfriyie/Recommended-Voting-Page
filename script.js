@@ -1,8 +1,7 @@
 const menu = document.getElementById('menu');
-const menuContainer = document.querySelector('.jc-menu-container');
-const closeBtn = document.querySelector('.close-icon');
-const overlay = document.querySelector('.overlay');
-
+const menuContainer = document.querySelector('.overlay');
+const closeBtn = document.querySelector('.close-btn');
+const overlay = document.querySelector('.under-cover');
 
 
 function menuFunc() {

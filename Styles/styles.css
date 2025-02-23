@@ -32,7 +32,7 @@ button{
 }
 
 .menu-icon{
-    display: none;
+    /* display: none; */
 }
 
 body {
@@ -524,6 +524,7 @@ nav ul li a:hover{
   /* visibility: hidden; Initially hidden */
   /* opacity: 0; */
   transition: opacity 0.3s ease, visibility 0.3s ease;
+  display: none;
 }
 
 
