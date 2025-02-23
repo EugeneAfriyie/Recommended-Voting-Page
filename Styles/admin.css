@@ -237,9 +237,6 @@ header{
 
 }
 
-header div{
-    
-}
 
 .header-name{
     font-size: 2rem;
@@ -408,15 +405,6 @@ background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgb
 }
 
 
-header{
-    /* display: none; */
-}
-
-/* .header-info i{
-    background-color: #fff;
-    color: red;
-    border: 1px solid black;
-} */
 
 
 

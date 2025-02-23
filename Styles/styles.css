@@ -51,7 +51,6 @@ a{
 }
 
 header{
-    /* margin-bottom: 2rem; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding-bottom: 2rem;
     padding: 1rem ;
@@ -68,7 +67,6 @@ header{
     align-items: center;
     color: #fff;
     height: 2.8rem;
-    /* border: 1px solid red; */
 
 }
 
@@ -81,8 +79,7 @@ header{
     border-color: red;
     width: 35%;
     height: 100%;
-    /* height: 5rem; */
-    /* border: 1px solid red; */
+
 }
 
 .search-input{
@@ -100,7 +97,6 @@ header{
     font-size: 1.2rem;
     color: gray;
     padding: auto 2rem;
-    /* font-family: monospace; */
 }
 
 .top-btn{
@@ -172,7 +168,6 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-position: 90% center;
     background-size: cover;
-    /* padding-left: 10rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,9 +183,6 @@ nav ul li a:hover{
 
   article{
     color: white;
-    /* padding-top: 10rem; */
-    /* display: grid; */
-    /* align-items: center; */
     margin-bottom: 3rem;
     max-width: 990px;
   }
@@ -198,14 +190,12 @@ nav ul li a:hover{
   .a-header{
     font-size: 3.3rem;
     font-weight: 700;
-    /* border: 1px solid red; */
     line-height: 3.5rem;
   }
 
   .a-para{
     font-size: 1.6rem;
     line-height: 2rem;
-    /* border: 1px solid red; */
     margin-top: 1rem;
   }
 
@@ -252,9 +242,7 @@ nav ul li a:hover{
     margin: 0;
    }
 
-   #events p{
-    /* font-family: monospace; */
-   }
+
 
    .events-div button{
     font-size: .9rem;
@@ -331,9 +319,7 @@ nav ul li a:hover{
    }
 
    .intru-card{
-    /* border: 1px solid rgb(221, 220, 220); */
     padding: 1rem;
-   /* box-shadow: -0.5px 1px rgba(226, 225, 225, 0); */
    font-size: 1.2rem;
    box-shadow: rgba(158, 158, 182, 0.2) 0px 7px 29px 0px;
    background-color: rgb(247, 247, 247);
@@ -399,7 +385,6 @@ nav ul li a:hover{
     flex-wrap: wrap;
     gap: 2rem;
 
-    /* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); */
    }
 
    footer .footer-ele{
@@ -464,7 +449,7 @@ nav ul li a:hover{
 
     transition: all 1.5s ease-in-out;
     transform: translateX(100%) ;
-    
+
    }
 
 
@@ -502,9 +487,9 @@ nav ul li a:hover{
    }
 
    svg {
-    width: 30px; /* Adjust size */
+    width: 30px; 
     height: 30px;
-    fill: black; /* Change color */
+    fill: black;
 }
 
 .overlay-div{
@@ -520,14 +505,10 @@ nav ul li a:hover{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.822); /* Dark semi-transparent */
-  /* backdrop-filter: blur(5px); Optional blur effect */
+  background: rgba(0, 0, 0, 0.822);
   display: flex;
   align-items: center;
   justify-content: center;
-  /* z-index: 1; */
-  /* visibility: hidden; Initially hidden */
-  /* opacity: 0; */
   transition: opacity 0.3s ease, visibility 0.3s ease;
   display: none;
 }

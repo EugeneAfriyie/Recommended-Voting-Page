@@ -1,10 +1,12 @@
 const votePage = document.querySelector('.admin-vote-page');
 const voteOverlay = document.querySelector('.admin-vote-overlay');
 const renderElement = document.querySelector('.render');
-// const renderElement = document.querySelector('.render'); // Ensure this exists
 
 
 let pageId = '';
+
+
+const oveviewPageContent = ''
 
 const nomineePageContent = `
        <div class="nominee-body admin-nominee-page">
@@ -811,14 +813,12 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
-    // Retrieve the stored page ID and update the content on initial load
     const savedPageId = localStorage.getItem('pageId');
     if (savedPageId) {
         updateContent(savedPageId);
         highlightSelectedItem(savedPageId);
     }
 
-    // Add event listeners to overlay items
     document.querySelectorAll('.overlay-item').forEach(item => {
         item.addEventListener('click', function () {
             const id = this.dataset.id;
