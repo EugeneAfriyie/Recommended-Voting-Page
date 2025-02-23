@@ -1,6 +1,10 @@
 const votePage = document.querySelector('.admin-vote-page');
 const voteOverlay = document.querySelector('.admin-vote-overlay');
 const renderElement = document.querySelector('.render');
+// const renderElement = document.querySelector('.render'); // Ensure this exists
+
+
+let pageId = '';
 
 const nomineePageContent = `
        <div class="nominee-body admin-nominee-page">
@@ -800,35 +804,52 @@ const eventPageContent = `
 
 
 `;
+document.addEventListener('DOMContentLoaded', function () {
+    const renderElement = document.querySelector('.render');
+    if (!renderElement) {
+        console.error('Error: .render element not found!');
+        return;
+    }
 
-document.querySelectorAll('.overlay-item').forEach(item => {
-    item.addEventListener('click', function () {
-        const id = this.dataset.id; // Getting the data-id
-        const renderElement = document.querySelector('.render'); // Ensure this exists
+    // Retrieve the stored page ID and update the content on initial load
+    const savedPageId = localStorage.getItem('pageId');
+    if (savedPageId) {
+        updateContent(savedPageId);
+        highlightSelectedItem(savedPageId);
+    }
 
-        if (!renderElement) {
-            console.error('Error: .render element not found!');
-            return;
-        }
+    // Add event listeners to overlay items
+    document.querySelectorAll('.overlay-item').forEach(item => {
+        item.addEventListener('click', function () {
+            const id = this.dataset.id;
+            localStorage.setItem('pageId', id);
 
-        // Remove 'selected' class from all items first
-        document.querySelectorAll('.overlay-item').forEach(el => el.classList.remove('selected'));
+            updateContent(id);
+            highlightSelectedItem(id);
+        });
+    });
 
-        // Update content based on ID
+    function updateContent(id) {
         if (id === 'votes') {
             renderElement.innerHTML = votePageContent;
-            console.log(votePageContent);
         } else if (id === 'nominee') {
             renderElement.innerHTML = nomineePageContent;
-            console.log(nomineePageContent);
         } else if (id === 'events') {
             renderElement.innerHTML = eventPageContent;
-            console.log(eventPageContent);
         } else {
             console.warn(`No content found for ID: ${id}`);
         }
+    }
 
-        // Add 'selected' class to the clicked item
-        this.classList.add('selected');
-    });
+    function highlightSelectedItem(id) {
+        document.querySelectorAll('.overlay-item').forEach(el => el.classList.remove('selected'));
+        const selectedItem = document.querySelector(`.overlay-item[data-id="${id}"]`);
+        if (selectedItem) {
+            selectedItem.classList.add('selected');
+        }
+    }
 });
+
+
+const savedPageId = localStorage.getItem('pageId');
+console.log(savedPageId ?? 'No pageId found');
