@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
+.menu-icon{
+    display: none;
+}
+
 
 a{
     color: inherit;
     text-decoration: none;
 }
 body{
-    display: grid;
-    grid-template-columns: 17rem 1fr;
+
     padding-top: 4rem;
 }
 
 .sidebar{
-    /* border: 1px solid red; */
+    /*  */
     height: 100vh;
     background: rgb(19, 9, 212);
 background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgba(63,80,56,1) 0%, rgba(25,111,128,1) 36%);
@@ -27,7 +30,6 @@ padding: .2rem;
     top: 3rem;
     overflow: auto;
     padding-bottom: 4rem;
-    /* display: none; */
 }
 
 .profile-div{
@@ -40,7 +42,7 @@ padding: .2rem;
     display: grid;
     grid-template-columns:auto 9rem auto;
     gap: 0rem;
-    border: 1px solid red;
+    
 }
 
 .profile .image{
@@ -129,7 +131,7 @@ padding: .2rem;
 }
 
 .sidebar-body{
-    /* border: 1px solid red; */
+    /*  */
 }
 
 .body-item{
@@ -210,16 +212,17 @@ header{
     height: 4rem;
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-columns: 20% 30% auto auto;
     align-items: center;
+    justify-content: space-between;
     background-color: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
-/* header div{
-    border: 1px solid red;
-} */
+header div{
+    
+}
 
 .header-name{
     font-size: 2rem;
@@ -274,6 +277,7 @@ input::placeholder{
     display: flex;
     gap: .5rem;
     cursor: pointer;
+    word-break: keep-all;
 }
 
 .header-info p:hover{
@@ -284,6 +288,7 @@ input::placeholder{
     display: flex;
     height: 90%;
     align-items: center;
+    /* justify-content: space-between; */
     font-size: 1.2rem;
     justify-content: end;
     gap: 1rem;
@@ -313,6 +318,8 @@ header .image img{
 
 .main-body{
     padding: 2rem;
+    padding-left: 19rem;
+
 }
 .body-header{
     font-size: 3rem;
@@ -386,7 +393,7 @@ background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(2,212,255,1) 0%, rgb
 
 
 header{
-    display: none;
+    /* display: none; */
 }
 
 /* .header-info i{
